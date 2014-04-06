@@ -11,6 +11,7 @@
 
 @interface SSResultsTableViewController ()
 
+@property (nonatomic, strong) NSArray *dictionary;
 @property (nonatomic, strong) NSMutableArray *searchResults;
 
 @end
@@ -21,7 +22,6 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
         self.title = @"Dictionary";
     }
     return self;
@@ -31,8 +31,10 @@
 {
     [super viewDidLoad];
     
-    //self.searchResults = [[NSMutableArray alloc] initWithObjects:@"Sairam", @"Sankaran", nil];
-    self.searchResults = [[NSMutableArray alloc] initWithObjects:nil];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"words" ofType:@"txt"];
+    NSCharacterSet *newLineCharacterSet = [NSCharacterSet newlineCharacterSet];
+    self.dictionary = [[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil] componentsSeparatedByCharactersInSet:newLineCharacterSet];
+    self.searchResults = [[NSMutableArray alloc] initWithObjects:@"Sairam", @"Sankaran", nil];
     
     [self setTableViewProperties];
     [self registerCells];
