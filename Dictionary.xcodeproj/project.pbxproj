@@ -26,6 +26,8 @@
 		F8C678CD18F102D30013FCB3 /* SSResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C678CC18F102D30013FCB3 /* SSResultTableViewCell.xib */; };
 		F8C678D018F102E90013FCB3 /* SSResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C678CF18F102E90013FCB3 /* SSResultTableViewCell.m */; };
 		F8C678D618F130270013FCB3 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8C678D518F130270013FCB3 /* words.txt */; };
+		F8C678D918F134EA0013FCB3 /* SSTrie.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C678D818F134EA0013FCB3 /* SSTrie.m */; };
+		F8C678DC18F135150013FCB3 /* SSTrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C678DB18F135150013FCB3 /* SSTrieNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		F8C678CE18F102E90013FCB3 /* SSResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSResultTableViewCell.h; sourceTree = "<group>"; };
 		F8C678CF18F102E90013FCB3 /* SSResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSResultTableViewCell.m; sourceTree = "<group>"; };
 		F8C678D518F130270013FCB3 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		F8C678D718F134EA0013FCB3 /* SSTrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTrie.h; sourceTree = "<group>"; };
+		F8C678D818F134EA0013FCB3 /* SSTrie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTrie.m; sourceTree = "<group>"; };
+		F8C678DA18F135150013FCB3 /* SSTrieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTrieNode.h; sourceTree = "<group>"; };
+		F8C678DB18F135150013FCB3 /* SSTrieNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTrieNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,10 @@
 				F8C678CC18F102D30013FCB3 /* SSResultTableViewCell.xib */,
 				F8C678CE18F102E90013FCB3 /* SSResultTableViewCell.h */,
 				F8C678CF18F102E90013FCB3 /* SSResultTableViewCell.m */,
+				F8C678D718F134EA0013FCB3 /* SSTrie.h */,
+				F8C678D818F134EA0013FCB3 /* SSTrie.m */,
+				F8C678DA18F135150013FCB3 /* SSTrieNode.h */,
+				F8C678DB18F135150013FCB3 /* SSTrieNode.m */,
 			);
 			path = Dictionary;
 			sourceTree = "<group>";
@@ -278,8 +288,10 @@
 				F8C678CB18F1011C0013FCB3 /* SSResultsTableViewController.m in Sources */,
 				F8C678AA18F100F90013FCB3 /* Dictionary.xcdatamodeld in Sources */,
 				F8C678A718F100F90013FCB3 /* SSAppDelegate.m in Sources */,
+				F8C678D918F134EA0013FCB3 /* SSTrie.m in Sources */,
 				F8C678D018F102E90013FCB3 /* SSResultTableViewCell.m in Sources */,
 				F8C678A318F100F90013FCB3 /* main.m in Sources */,
+				F8C678DC18F135150013FCB3 /* SSTrieNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
