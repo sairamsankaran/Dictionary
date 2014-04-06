@@ -25,7 +25,7 @@
 		F8C678CB18F1011C0013FCB3 /* SSResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C678CA18F1011C0013FCB3 /* SSResultsTableViewController.m */; };
 		F8C678CD18F102D30013FCB3 /* SSResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C678CC18F102D30013FCB3 /* SSResultTableViewCell.xib */; };
 		F8C678D018F102E90013FCB3 /* SSResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C678CF18F102E90013FCB3 /* SSResultTableViewCell.m */; };
-		F8C678D318F12F2D0013FCB3 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8C678D218F12F2D0013FCB3 /* words.txt */; };
+		F8C678D618F130270013FCB3 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8C678D518F130270013FCB3 /* words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		F8C678CC18F102D30013FCB3 /* SSResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSResultTableViewCell.xib; sourceTree = "<group>"; };
 		F8C678CE18F102E90013FCB3 /* SSResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSResultTableViewCell.h; sourceTree = "<group>"; };
 		F8C678CF18F102E90013FCB3 /* SSResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSResultTableViewCell.m; sourceTree = "<group>"; };
-		F8C678D218F12F2D0013FCB3 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.txt; path = ../../../../Downloads/Dictionary/Resources/words.txt; sourceTree = "<group>"; };
+		F8C678D518F130270013FCB3 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 		F8C6789C18F100F90013FCB3 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				F8C678D118F12F1D0013FCB3 /* Resources */,
+				F8C678D418F130060013FCB3 /* Resources */,
 				F8C678AB18F100F90013FCB3 /* Images.xcassets */,
 				F8C6789D18F100F90013FCB3 /* Supporting Files */,
 				F8C678A818F100F90013FCB3 /* Dictionary.xcdatamodeld */,
@@ -169,10 +169,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F8C678D118F12F1D0013FCB3 /* Resources */ = {
+		F8C678D418F130060013FCB3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F8C678D218F12F2D0013FCB3 /* words.txt */,
+				F8C678D518F130270013FCB3 /* words.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 			files = (
 				F8C678A118F100F90013FCB3 /* InfoPlist.strings in Resources */,
 				F8C678CD18F102D30013FCB3 /* SSResultTableViewCell.xib in Resources */,
-				F8C678D318F12F2D0013FCB3 /* words.txt in Resources */,
+				F8C678D618F130270013FCB3 /* words.txt in Resources */,
 				F8C678AC18F100F90013FCB3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
